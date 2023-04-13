@@ -1,0 +1,99 @@
+#profile{
+    width: 30%;
+    margin-left: 20%;
+    border-radius: 50px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15%;
+    margin-top: 5%;
+}
+
+#hello{
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#skills{
+    margin-left: 40%;
+    font-size:x-large;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.code{
+    border: 2px solid rgb(97, 84, 84);
+    
+}
+.visit{
+    background-color: goldenrod;
+    color:rgb(97, 84, 84);
+    border-radius: 20px;
+    border: 2px solid;
+    
+    
+}
+.scrollskill{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10%;
+    overflow: auto;
+    white-space: nowrap;
+    
+}
+.scrollskill a{
+    display:inline-block;
+    color: goldenrod;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    
+}
+.scrollskill a:hover{
+    background-color: goldenrod;
+}
+.title{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+#icon{
+    font-weight: bold;
+    font-size: x-large;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+.soft{
+    border-radius: 20px;
+    border: 4px solid;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    font-size: larger;
+    font-weight: bold;
+    
+}
+.location{
+    margin-left: 45%;
+    margin-top: -11.5%;
+}
+.form{
+    margin-left: 75%;
+    margin-top: -9%;
+}
+.footer{
+    margin-left: 10%;
+}
+.right{
+    border: 2px solid rgb(97, 84, 84);
+    text-align: center;
+    background-color: rgb(95, 88, 88);
+    font-size: x-large;
+    
+}
