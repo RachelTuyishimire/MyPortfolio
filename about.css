@@ -130,6 +130,7 @@
     font-size: x-large;
     border: 2px solid black;
     cursor: pointer;
+    width: 150px;
 }
 
 .footer{
@@ -140,5 +141,22 @@
     text-align: center;
     background-color: rgb(95, 88, 88);
     font-size: x-large;
+    
+}
+.cv{
+    margin-left: 46%;
+    border-radius: 20px;
+    margin-top: -30%;
+    background-color: goldenrod;
+    color:black;
+    font-weight: bold;
+    font-size: x-large;
+    border: 2px solid black;
+    cursor: pointer;
+    width: 200px;
+}
+.cv a{
+    color: black;
+    transition: 2s;
     
 }
