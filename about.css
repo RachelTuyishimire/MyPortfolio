@@ -18,10 +18,12 @@
     
 }
 #skills{
-    margin-left: 40%;
+    text-align: center;
+    /* margin-left: 40%; */
     font-size:x-large;
     font-weight: bold;
-    margin-bottom: 5%;
+    margin-bottom: 6%;
+    margin-top: 10%;
 }
 .code{
     border: 2px solid rgb(97, 84, 84);
@@ -29,11 +31,15 @@
 }
 .visit{
     background-color: goldenrod;
-    color:rgb(97, 84, 84);
+    color: black;
     border-radius: 20px;
     border: 2px solid;
     
     
+}
+.visit a{
+    color: black;
+    transition: 2s;
 }
 .scrollskill{
     display:flex;
@@ -42,6 +48,7 @@
     margin-bottom: 10%;
     overflow: auto;
     white-space: nowrap;
+    
     
 }
 .scrollskill a{
@@ -84,9 +91,47 @@
     margin-top: -11.5%;
 }
 .form{
-    margin-left: 75%;
-    margin-top: -9%;
+    margin-left: 33%;
+    margin-bottom: -9%;
+    font-weight: bold;
+    font-size: large;
+    /* background-color: rgb(64, 66, 68); */
+    border-radius: 5px;
+    
 }
+#first{
+    margin-right: 1%;
+    
+}
+#last{
+    margin-left: 30%;
+    margin-top: -7.3%;
+}
+#email{
+    margin-bottom: -3%;
+}
+#phone{
+    margin-left: 30%;
+    margin-top: -5%;
+}
+#message{
+    margin-top: 5%;
+    /* margin-left: 2%; */
+    width: 51%;
+    height: 10%;
+
+}
+.submit{
+    margin-left: 20%;
+    border-radius: 10px;
+    background-color: goldenrod;
+    color:black;
+    font-weight: bold;
+    font-size: x-large;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
 .footer{
     margin-left: 10%;
 }
