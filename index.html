@@ -10,89 +10,58 @@
     <title>KnowMe</title>
 </head>
 <body class="body">
+    <div class="upper">
     <div class="land">
-        <h1 class="name">RachelTuyishimire</h1>
+        <h1 class="name">RAC</h1>
+        <h1 class="namee">HEL</h1>
         <nav class="nav">
-            <!-- <h1 class="name">RachelTuyishimire</h1> -->
             <ul>
                 <li><a href=#home>Home</a></li>
                 <li><a href=#about>About Me</a></li>
-                <li>Portfolio</li>
+                <li><a href=#skills>Skills</a></li>
                 <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav> 
     </div>
+
+
+
     <div class="home" id="home">
         <img id="me" src="pictures/profile-PhotoRoom.png">
-        <h2 id="career">
-           Rachel Tuyishimire<br/>
-           </h2>
-          <p id="job"> Software Engineer <br/>
-        <a href="https://www.linkedin.com/in/rachel-tuyishimire?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bt1IHSssVR0i7z9UGnmJOwg%3D%3D"><i id="click" class="fa fa-linkedin-square" aria-hidden="true"></a></i>
+        <p class="profile">I'm Rachel</p>
+        <p class="job">Software Developer</p>
+       <p class="social"><a href="https://www.linkedin.com/in/rachel-tuyishimire?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bt1IHSssVR0i7z9UGnmJOwg%3D%3D"><i id="click" class="fa fa-linkedin-square" aria-hidden="true"></a></i>
         <a href="https://www.instagram.com/rachealnganji14/"><i id="click" class="fa fa-instagram" aria-hidden="true"></a></i>
          <a href="https://github.com/RachelTuyishimire"><i id="click" class="fa fa-github" aria-hidden="true"></a></i>
-        </p>
-        <button class="cv"><a href="https://docs.google.com/document/d/1b66iJDkNfAIBwwUUR3lY_8LnrbnvHWuL_NTqUm9YXvc/edit?usp=sharing">Review CV</a></button>
-    </div>
-    <br/>
-
+         </p>
+        </div>
+<!-- <---------------About section-----------------> 
+   <div class="second">
     <h1 id="about-content">ABOUT ME</h1>
     <div class="about" id="about">
-       
     <p id="hello">
-        I have always been willing to undergo challenges that expose me to different perspectives, 
-        which makes me a reliable and diligent person. I’m currently a student at Akirachix, 
-        pursuing a diploma in Software development. I’ve always been fascinated by how small 
-        steps always lead to the big output. To me, coding is the best way of breaking and 
-        organizing huge stacks into small sections for better outputs.<br/>
-        
-        </p>
-       
-        <img id="profile" src="pictures/profile-PhotoRoom.png">
-        </div>
+        Hello there,<br/><br/>
+        I'm Rachel Tuyishimire, I've always been fascinated by the power of technology and how far we can get by just one press on a button.
+        I'm a current AkiraChix student in software development. <br/><br/>
+        I am  able to create objects like arrays and lists and manage them using Python and JavaScript as well as Kotlin for Android development.
         <br/>
-        <div >
-        <!-- <button class="cv">Download CV</button> -->
+        <br/>
+        <i  class="fa fa-whatsapp" aria-hidden="true"></i> +250 787 931 168<br/><br/>
+        <i class="fa fa-envelope" aria-hidden="true"></i> rachelltuyishimire@gmail.com
+        </p>
+        
+       
+        <img id="profile" src="pictures/gitphoto.png">
+       <a href="https://docs.google.com/document/d/1b66iJDkNfAIBwwUUR3lY_8LnrbnvHWuL_NTqUm9YXvc/edit"> <button class="cv">CV</button></a> <a href="skills.html"><button class="cvs">Skills</button></a>
         </div>
-        <h3 id="skills">Skills</h3> 
-        <div class="scrollskill">
-            <div class="soft">
-                <i id="icon" class="fa fa-code" aria-hidden="true"></i><br/>
-                <p class="title">Software development</p>
-                <p>Front-end/Back-end Dev </p>
-        <a href="https://github.com/RachelTuyishimire/BrickHouse.git"> <button class="visit">Visit Projects</a></button>
-            </div>
-            <div class="soft">
-                <i id="icon" class="fa fa-line-chart" aria-hidden="true"></i><br/>
-                <p class="title">Product Management</p>
-                <p>Initiatives, User Stories</p>
-        <a href="https://pearltech01.atlassian.net/jira/software/projects/TECH/boards/1/backlog"> <button class="visit">Visit Projects</a></button>
-                
-            </div>
-            <div class="soft">
-                <i id="icon" class="fa fa-search" aria-hidden="true"></i><br/>
-                <p class="title">UX Research</p>
-                <p>Empathise, Prototyping</p>
-                <button class="visit">Visit Projects</button>
-            </div>
-            <div class="soft">
-                <i id="icon" class="fa fa-paint-brush" aria-hidden="true"></i>
-                <p class="title">UX/UI Design</p>
-                <p>User interface, Graphic design</p>
-                <button class="visit">Visit Projects</button>
+        
+        <br/>
+        </div>
+<!-- <----------------Contact section------------------> 
 
-            </div>
-            <div class="soft">
-                <i id="icon" class="fa fa-cogs" aria-hidden="true"></i>
-                <p class="title">Firmware Engineering</p>
-                <p>Design thinking, Arduino, </p>
-            <a href="https://github.com/RachelTuyishimire/CircuitDesign.git"><button class="visit">Visit Projects</a></button>
-                
-            </div>
-        </div>
         <div class="form" id="contacts">
             <form onsubmit="sendEmail(); reset(); return false;">
-                <!-- <p class="social">Leave a comment</p> -->
+                <p id="social">Get in touch with us</p>
               <div id="first"> <label>First name</label>  
                 <br/>
                 <input type="text" placeholder="First name"><br/>
@@ -112,36 +81,23 @@
                 </div>
                 <textarea id="message" rows="4" placeholder="Your message"></textarea> 
                 <br/>
-                <br/>
+                
                 <button class="submit" type="submit">Send</button>
 
 
             </form>
-            <!-- </div>
-        <div class="footer"> -->
-        <!-- <h2>Get in Touch With Us</h2>
-        <br/>
-        <p class="social">Social Media Handles</p>
-        <div class="icons">
-            <p><i class="fa fa-whatsapp" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-            <i class="fa fa-github" aria-hidden="true"></i><br/>
-            Email: rachelltuyishimire@gmail.com
-        </p>
-            
-        </div>
-        </div>
-        <div class="location">
-            <p class="social">Location</p>
-            <p>Kenya, Nairobi</p>
-            <p><i class="fa fa-map-marker" aria-hidden="true"></i> 616 Korongo Rd, Karen</p>
-        </div> -->
        
         </div>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
         <div>
-            <!-- <p class="right">Copyright<i class="fa fa-copyright" aria-hidden="true"></i>2023 Rachel Tuyishimire.All rights reserved.<br/></p> -->
+            <p class="right">Copyright<i class="fa fa-copyright" aria-hidden="true"></i>2023 Rachel Tuyishimire.All rights reserved.<br/></p>
         </div>
     
 

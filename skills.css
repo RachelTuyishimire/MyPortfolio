@@ -1,0 +1,19 @@
+.body{
+  /* background-image: url(pictures/option2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 500px; */
+
+}
+.skill{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+
+}
+.soft{
+
+}
+#tag{
+    width: 20%;
+}
